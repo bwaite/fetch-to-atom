@@ -1,0 +1,13 @@
+
+curl_http_headers:
+  - 'Pragma: no-cache'
+  - 'Accept-Language: en-US,en;q=0.8'
+  - 'Accept: */*'
+  - 'Connection: keep-alive'
+  - 'Cache-Control: no-cache'
+
+curl_user_agent: 'Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0'
+
+
+postgres_connection_str: 'postgresql+psycopg2://test:password@localhost:5432/test'
+postgres_schema: 'atom'
